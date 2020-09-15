@@ -5,13 +5,12 @@ Welcome to pyConsol's documentation!
    :maxdepth: 2
    
    README
+   example
    license
 
 
 
-Indices and tables
+Contact
 ==================
 
-* :ref:`genindex`
-* :ref:`modindex`
-* :ref:`search`
+If you have questions or comments, contact Scott Brandenberg (sjbrandenberg@ucla.edu)
