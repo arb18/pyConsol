@@ -31,7 +31,8 @@ release = '1.0.3'
 # extensions coming with Sphinx (named 'sphinx.ext.*') or your custom
 # ones.
 extensions = [
-  "sphinx_rtd_theme"
+    "sphinx_rtd_theme",
+    "recommonmark",
 ]
 
 # Add any paths that contain templates here, relative to this directory.
@@ -56,3 +57,7 @@ html_theme = 'sphinx_rtd_theme'
 html_static_path = ['_static']
 
 master_doc = 'index'
+source_suffix = {
+    '.rst': 'restructuredtext',
+    '.md': 'markdown',
+}
